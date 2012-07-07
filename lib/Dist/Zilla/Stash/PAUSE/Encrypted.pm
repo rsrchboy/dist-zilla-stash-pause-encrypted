@@ -39,11 +39,7 @@ __END__
     # ...do the GPG magicky things described by Config::Identity, then:
 
     # in your ~/.dzil/config.ini
-    [%PAUSE::Encrypted]
-
-    # then in dist.ini -- yeah, I don't know why it isn't documented either
-    [UploadToCPAN]
-    credentials_stash = %PAUSE::Encrypted
+    [%PAUSE::Encrypted / %PAUSE]
 
 =head1 DESCRIPTION
 
@@ -56,5 +52,7 @@ user id and password.
 L<Config::Identity>
 
 L<Dist::Zilla::Stash::PAUSE>
+
+L<Dist::Zilla::Plugin::UploadToCPAN>
 
 =cut
