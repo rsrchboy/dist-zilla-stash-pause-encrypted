@@ -1,5 +1,10 @@
-Revision history for {{$dist->name}}
+Revision history for Dist-Zilla-Stash-PAUSE-Encrypted
 
 {{$NEXT}}
 
+0.002     2012-07-07 11:17:44 America/Los_Angeles
+	- change doc -- don't alter UploadToCPAN's credential_stash option, rename
+	  our stash
+
 0.001     2012-07-07 01:09:17 America/Los_Angeles
+	- first release

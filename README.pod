@@ -10,18 +10,14 @@ Dist::Zilla::Stash::PAUSE::Encrypted - Keep your PAUSE bits safely encrypted!
 
 =head1 VERSION
 
-This document describes version 0.001 of Dist::Zilla::Stash::PAUSE::Encrypted - released July 07, 2012 as part of Dist-Zilla-Stash-PAUSE-Encrypted.
+This document describes version 0.002 of Dist::Zilla::Stash::PAUSE::Encrypted - released July 07, 2012 as part of Dist-Zilla-Stash-PAUSE-Encrypted.
 
 =head1 SYNOPSIS
 
     # ...do the GPG magicky things described by Config::Identity, then:
 
     # in your ~/.dzil/config.ini
-    [%PAUSE::Encrypted]
-
-    # then in dist.ini -- yeah, I don't know why it isn't documented either
-    [UploadToCPAN]
-    credentials_stash = %PAUSE::Encrypted
+    [%PAUSE::Encrypted / %PAUSE]
 
 =head1 DESCRIPTION
 
@@ -44,6 +40,10 @@ L<Config::Identity>
 =item *
 
 L<Dist::Zilla::Stash::PAUSE>
+
+=item *
+
+L<Dist::Zilla::Plugin::UploadToCPAN>
 
 =back
 
