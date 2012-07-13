@@ -10,7 +10,7 @@ Dist::Zilla::Stash::PAUSE::Encrypted - Keep your PAUSE bits safely encrypted!
 
 =head1 VERSION
 
-This document describes version 0.002 of Dist::Zilla::Stash::PAUSE::Encrypted - released July 07, 2012 as part of Dist-Zilla-Stash-PAUSE-Encrypted.
+This document describes version 0.003 of Dist::Zilla::Stash::PAUSE::Encrypted - released July 13, 2012 as part of Dist-Zilla-Stash-PAUSE-Encrypted.
 
 =head1 SYNOPSIS
 
