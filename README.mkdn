@@ -1,0 +1,70 @@
+[![Build Status](https://travis-ci.org/RsrchBoy/dist-zilla-stash-pause-encrypted.svg?branch=master)](https://travis-ci.org/RsrchBoy/dist-zilla-stash-pause-encrypted)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/Dist-Zilla-Stash-PAUSE-Encrypted.png)](http://cpants.charsbar.org/dist/overview/Dist-Zilla-Stash-PAUSE-Encrypted)
+[![Coverage Status](https://coveralls.io/repos/RsrchBoy/dist-zilla-stash-pause-encrypted/badge.png?branch=master)](https://coveralls.io/r/RsrchBoy/dist-zilla-stash-pause-encrypted?branch=master)
+
+# NAME
+
+Dist::Zilla::Stash::PAUSE::Encrypted - Keep your PAUSE bits safely encrypted!
+
+# VERSION
+
+This document describes version 0.004 of Dist::Zilla::Stash::PAUSE::Encrypted - released May 10, 2015 as part of Dist-Zilla-Stash-PAUSE-Encrypted.
+
+# SYNOPSIS
+
+    # ...do the GPG magicky things described by Config::Identity, then:
+
+    # in your ~/.dzil/config.ini
+    [%PAUSE::Encrypted / %PAUSE]
+
+# DESCRIPTION
+
+This is a simple extension of [Dist::Zilla::Stash::PAUSE](https://metacpan.org/pod/Dist::Zilla::Stash::PAUSE) to use
+[Config::Identity](https://metacpan.org/pod/Config::Identity) to store and access an encrypted version of your PAUSE
+user id and password.
+
+# SEE ALSO
+
+Please see those modules/websites for more information related to this module.
+
+- [Config::Identity](https://metacpan.org/pod/Config::Identity)
+- [Dist::Zilla::Stash::PAUSE](https://metacpan.org/pod/Dist::Zilla::Stash::PAUSE)
+- [Dist::Zilla::Plugin::UploadToCPAN](https://metacpan.org/pod/Dist::Zilla::Plugin::UploadToCPAN)
+
+# BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/RsrchBoy/dist-zilla-stash-pause-encrypted/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
+# AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+## I'm a material boy in a material world
+
+<div>
+    <a href="https://gratipay.com/RsrchBoy/"><img src="http://img.shields.io/gratipay/RsrchBoy.svg" /></a>
+    <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
+    <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-stash-pause-encrypted&title=RsrchBoy's%20CPAN%20Dist-Zilla-Stash-PAUSE-Encrypted&tags=%22RsrchBoy's%20Dist-Zilla-Stash-PAUSE-Encrypted%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
+</div>
+
+Please note **I do not expect to be gittip'ed or flattr'ed for this work**,
+rather **it is simply a very pleasant surprise**. I largely create and release
+works like this because I need them or I find it enjoyable; however, don't let
+that stop you if you feel like it ;)
+
+[Flattr](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-stash-pause-encrypted&title=RsrchBoy&#x27;s%20CPAN%20Dist-Zilla-Stash-PAUSE-Encrypted&tags=%22RsrchBoy&#x27;s%20Dist-Zilla-Stash-PAUSE-Encrypted%20in%20the%20CPAN%22),
+[Gratipay](https://gratipay.com/RsrchBoy/), or indulge my
+[Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If and \*only\* if you so desire.
+
+# COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2012 by Chris Weyl.
+
+This is free software, licensed under:
+
+    The GNU Lesser General Public License, Version 2.1, February 1999
